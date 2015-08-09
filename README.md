@@ -5,8 +5,8 @@ railsの開発環境を揃えた仮想環境
 
 ## Install
 ```
-$ git clone saxsir/xxx
-$ cd xxx
+$ git clone git@github.com:saxsir/rails-env.git
+$ cd rails-env
 $ vagrant up
 ```
 
