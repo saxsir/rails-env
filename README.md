@@ -10,7 +10,7 @@ $ cd rails-env
 $ vagrant up
 ```
 
-### 以下のコマンドが出て怒られるみたいなので、
+### 以下のエラーが出て怒られるみたいなので、
 
 ```
 The following SSH command responded with a non-zero exit status.
