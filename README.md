@@ -10,7 +10,19 @@ $ cd rails-env
 $ vagrant up
 ```
 
-### 以下のエラーが出て怒られるみたいなので、
+## Login
+```
+$ vagrant ssh                                                                                                                                saxsir-mbp.local
+vagrant@127.0.0.1's password:
+```
+
+password: `vagrant`
+
+本当は公開鍵でログインしてくれるはずなんだが...
+
+refs. [https://github.com/mitchellh/vagrant/issues/5186](https://github.com/mitchellh/vagrant/issues/5186)
+
+### もしvagrant upで以下のエラーが出たら、
 
 ```
 The following SSH command responded with a non-zero exit status.
@@ -36,11 +48,6 @@ $ vagrant reload
 すると直る。
 
 refs. [http://qiita.com/tarr1124/items/8276e609c0f7cdec79e7](http://qiita.com/tarr1124/items/8276e609c0f7cdec79e7)
-
-## Login
-```
-$ vagrant ssh
-```
 
 ## Sample rails app
 ```
